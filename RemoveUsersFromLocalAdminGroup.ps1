@@ -30,4 +30,4 @@ foreach ($member in $members) {
 
 	#Write-Host "All members, except the specified exclusions, have been removed from the Administrators group."
 }
-Shutdown /l /f
+#Shutdown /l /f
