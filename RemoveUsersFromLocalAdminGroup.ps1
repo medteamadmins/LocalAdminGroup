@@ -23,11 +23,4 @@ foreach ($member in $members) {
     }
     Remove-LocalGroupMember -Group "Administrators" -Member $member.UserName
 
-    # Remove the member from the Administrators group
-    #$administratorsGroup.Invoke("Remove", [System.Type]::GetType("System.DirectoryServices.DirectoryEntry"), $member.SID)
-    #Write-Host "User $($member.UserName) with SID $($member.SID) has been removed from the Administrators group."
-
-
-	#Write-Host "All members, except the specified exclusions, have been removed from the Administrators group."
 }
-#Shutdown /l /f
