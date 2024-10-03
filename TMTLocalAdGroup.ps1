@@ -1,5 +1,5 @@
 # Define the list of users to exclude from removal
-$excludedUsers = @("medtrator","tmtadmin")
+$excludedUsers = @("Medtrator", "S-1-12-1-1605978423-1201099401-1932580286-3281254816")
 
 # Get the members of the Administrators group using the [ADSI] accelerator
 $administratorsGroup = [ADSI]"WinNT://./Administrators,group"
